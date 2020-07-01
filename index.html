@@ -1,0 +1,129 @@
+<html>
+
+<head>
+    <title>Tamir's Tab</title>
+
+    <!--From other CSS file style-->
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    
+</head>
+
+<body>
+  <form id="myForm">
+    <legend>טופס הרשמה</legend>
+
+    <div class="main">
+
+        <h2>שלב 1</h2>
+        
+        <div class="section">    
+          
+          <div class="row">
+            <label for="text">שם:</label>
+            <input class="col" type="text" id="fname" name="valid" required maxlength="30" placeholder="שם מלא">
+
+          </div>
+
+          <div class="row">
+            <label for="email">אי-מייל:</label>
+            <input class="col" type="email" id="email" required  maxlength="30" placeholder="mail.com@">
+
+          </div>
+
+          <div class=row>
+            <label for="address">סיסמה:</label>
+            <input class="col" type="password" id="pass" name="valid" required maxlength="10" placeholder="מינימום 6 תווים, אותיות ומספרים" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$">
+
+          </div>
+
+          <div class="row">
+            <label for="address">הכנס שוב סיסמה:</label> 
+            <input class="col" type="password" id="repass" name="valid" required maxlength="10" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$">
+
+          </div>           
+   
+        </div>
+
+        <h2>שלב 2</h2>
+        <div class="section">
+           
+            <div class="row">
+              <label for="age">גיל:</label>
+              <select class="col" name="age" id="age">
+                <option value="">0-20</option>
+                <option value="">20-40</option>
+                <option value="">40-60</option>
+                <option value="">60+</option>
+
+              </select>
+              
+            </div>
+
+            <div class="row"> 
+              <label for="status"></label>סטטוס:</label>
+              <div class="col">
+                <label for="married">נשוי</label>
+                <input type="radio" id="married" name="status" value="נשוי" checked>
+                <label for="single">רווק</label>
+                <input type="radio" id="single" name="status" value="רווק">
+
+              </div>
+              
+            </div>
+            
+            <div class="row">
+              <label for="hobies">תחביבים:</label>
+              <div class="col">
+                <label for="sport">ספורט:</label>
+                <input type="checkbox" id="sport" name="hobiess" value="ספורט">
+                <label for="music">מוזיקה:</label>
+                <input type="checkbox" id="music" name="hobiess" value="מוזיקה">
+                <label for="movies">סרטים:</label>
+                <input type="checkbox" id="movies" name="hobiess" value="סרטים">
+                <label for="hiking">טיולים:</label>
+                <input type="checkbox" id="hiking" name="hobiess" value="טיולים">
+
+              </div>
+              
+            </div><br>
+
+            <div class="row">
+              <label for="ad">המפרסם:</label> 
+              <input class="col" type="text" id="ad" name="ad" value="W24LCH">
+
+            </div>
+   
+             
+   
+        </div>
+
+        <h2>שלב 3</h2>
+        <div class="section">
+           
+            <div class="row">
+              <label for="passport">תמונת פרופיל:</label>
+              <input class="col" type="file" id="passport" name="passport" accept="image/*">
+            </div>
+
+            <div class="row">
+              <label for="myself">משפטים על עצמי:</label>    
+              <textarea class="col" id="myself" rows="2" maxlength="30" placeholder=" במספר משפטים קצרים"></textarea>
+              
+            </div>
+   
+             
+   
+        </div> 
+        
+        <input type="reset" value="אפס טופס">
+        <button id="send" onclick="validation()" type="submit" >שלח</button>
+
+    </div>      
+  </form>
+
+    
+</body>
+
+</html>

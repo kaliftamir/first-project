@@ -1,0 +1,71 @@
+
+
+
+@font-face {
+    font-family: 'myFirstFont';
+    src: url(IndieFlower-Regular.ttf);
+  }
+  
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    direction: rtl;
+    align-items: right;
+    padding-right: 2em;  
+    
+  }
+  
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: solid crimson; */
+    padding-bottom: 0.5em;
+    height: 5%;
+  }
+  
+  legend {
+    
+    width: 35%;
+    font-size: 3em;
+    background-color: crimson;
+    text-align: center;
+    
+  }
+  
+  h2 {
+    width: 35%;
+    text-align: center;
+  }
+  
+  .section {
+    width: 35%;
+    border: solid black;
+    padding:0.5em;
+  }
+  
+  .col {
+  
+    margin-right: 19%;
+    position: absolute;
+    display: block;
+    width: 13%;
+    /* border: solid; */
+    
+  }
+  
+  input:valid {
+    color: green;
+    font-size: large;
+    
+  }
+  
+  input:invalid {
+    border-color: crimson;
+    border-width: 3px;
+  }
+  
