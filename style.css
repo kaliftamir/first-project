@@ -1,12 +1,6 @@
 
 
 
-@font-face {
-    font-family: 'myFirstFont';
-    src: url(IndieFlower-Regular.ttf);
-  }
-  
-  
   
   * {
     box-sizing: border-box;
@@ -15,57 +9,75 @@
   body {
     direction: rtl;
     align-items: right;
-    padding-right: 2em;  
-    
+    font-family: Arial;
+    margin: 0;
+        
   }
   
   
   .row {
     display: flex;
     flex-wrap: wrap;
-    /* border: solid crimson; */
-    padding-bottom: 0.5em;
-    height: 5%;
-  }
-  
-  legend {
-    
-    width: 35%;
-    font-size: 3em;
-    background-color: crimson;
-    text-align: center;
+    border: solid crimson;
     
   }
   
-  h2 {
-    width: 35%;
-    text-align: center;
-  }
-  
-  .section {
-    width: 35%;
-    border: solid black;
-    padding:0.5em;
-  }
+
   
   .col {
   
-    margin-right: 19%;
     position: absolute;
     display: block;
-    width: 13%;
-    /* border: solid; */
+    
+    border: solid;
     
   }
-  
-  input:valid {
-    color: green;
-    font-size: large;
-    
+
+  #banner {
+    height: 65px;
+  }
+
+  #header {
+    width: 900px;
+    height: 105px;;
+  }
+
+  ul {
+    text-decoration: none;
+  }
+
+  nav > ul li > img {
+    width: 4px;
+    height: 21px;
+    margin-top: 0;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 0;
   }
   
-  input:invalid {
-    border-color: crimson;
-    border-width: 3px;
+  .dropdown {
+    /* display: none; */
+    position: relative;
+    list-style: none;
+    padding-left: 0;
+    /* justify-content: space-between; */
   }
-  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 100%;    
+  }
+
+  .dropdown:hover  .dropdown-content {
+    display: block;
+  }
+
+  #header nav {
+    position: relative;
+    top:72px;
+    height: 33px;
+    margin: 0 143px 0 0;
+  }
