@@ -24,7 +24,7 @@
     flex-wrap: wrap;
     /* border: solid crimson; */
     
-    height: 65px;
+    height: 103px;
     
   }
   
@@ -96,7 +96,7 @@
 
   form {
     display: block;
-    margin-top: -30px;
+    margin-top: -20px;
     /* border: solid red; */
   }
 
@@ -167,7 +167,7 @@ img.mid-pic {
   color:white;
   font-size: 13px;
   margin-top: 4px;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 
 .read-more {
