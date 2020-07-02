@@ -32,8 +32,8 @@
   .row-2 {
     display: flex;
     flex-wrap: wrap;
-    /* border: solid crimson; */
-    /* margin-top: 75px; */
+    border: solid crimson;
+    
     height: 355px;
     margin-top: 18px;
     
@@ -42,8 +42,9 @@
   .row-3 {
     display: flex;
     flex-wrap: wrap;
-   height: 216px;
+    height: 216px;
     height: 216px;  
+    border: solid tomato;
   
   }
 
@@ -148,7 +149,7 @@
     width: 142px;
     height: 93px;
     position: absolute;
-    bottom: -20px;
+    bottom: -2px;
     right: -8px;
   }
 
@@ -245,6 +246,8 @@
 
   .dropdown-content a  {
    color: white;
+   border-bottom: 0.02px solid white ;
+   font-weight: bold;
    
   }
 
@@ -256,7 +259,7 @@
 
 
  
-/* main page ---------------------------------- */
+/* main section ---------------------------------- */
  
   #main {
     padding-top: 90px;
@@ -324,11 +327,12 @@ img.mid-pic {
   color:white;
 }
 
+/* last section--------------------------------- */
 
 
 
 
-  /* end---------------------------------------- */
+ 
 
 
   /* footer--------------------------------------- */
@@ -363,14 +367,15 @@ img.mid-pic {
 }
 
 
-nav a {
+nav a, header a {
   text-decoration: none;
   color: white;
 }
 
 li:hover {
   
-  text-decoration: underline;  
+  text-decoration: underline;
+  /* background-color: yellow;   */
   
 }
 
