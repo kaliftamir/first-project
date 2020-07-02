@@ -4,48 +4,202 @@
   
   * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
   }
   
   body {
     direction: rtl;
     align-items: right;
     font-family: Arial;
+    scroll-padding-bottom: 38px;
     margin: 0;
         
   }
+
+   /* layout -----------------------------------*/
+
+   .row-1 {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: solid crimson; */
+  
+    height: 65px;
+    
+  }
   
   
-  .row {
+  .row-2 {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: solid crimson; */
+    /* margin-top: 75px; */
+    height: 355px;
+    margin-top: 18px;
+    
+  }
+
+  .row-3 {
     display: flex;
     flex-wrap: wrap;
     border: solid crimson;
-    
+    height: 216px;  
+  
+  }
+
+  .row-4 {
+
+    display: flex;
+    position: fixed;
+    width: 100%;
+    /* border: solid crimson; */
+    bottom: 0;
+    padding-bottom: 8px;
+    height: 38px;
+    background-color: grey;
+    z-index: 9999;
+        
   }
   
 
   
-  .col {
+  .col-1 {
   
     position: absolute;
-    display: block;
-    
+    width: 293px;    
+    display: block;    
     border: solid;
     
   }
 
-  #banner {
-    height: 65px;
+  .col-2 {
+  
+    position: absolute;
+    width: 293px;
+    margin-right: 300px;
+    display: block;    
+    border: solid;
+    
   }
 
-  #header {
-    width: 900px;
-    height: 105px;;
+  .col-3 {
+  
+    position: absolute;
+    width: 293px;
+    margin-right: 600px;;
+    display: block;    
+    border: solid;
+    
   }
+
+ /* end------------------------------------------ */
+
+  form {
+    display: block;
+    margin-top: -30px;
+    /* border: solid red; */
+  }
+
+  #banner {
+    min-height: 65px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: grey;
+
+  }
+
+  .container {
+
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    /* border: solid green; */
+
+  }
+
+  .abs {
+    position: absolute;
+    width: 100%;
+    border: solid yellow;
+  }
+
+     
+  #header {
+    
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 105px;
+    z-index: 100;
+     
+  }
+
+  /* end---------------------------------------- */
+  
+  #paz-logo {
+    /* display: block; */
+    width: 142px;
+    height: 93px;
+    position: absolute;
+    bottom: -20px;
+    right: -8px;
+  }
+
+  
+  #search-icon {
+    
+    float:left;
+    width: 19px;
+    height: 19px;
+    
+  }
+ 
+ 
+  #text-box {
+    float:left;
+    width: 132px;
+    height: 19px;
+    border-top-right-radius: 8px;
+    border: none;
+    
+  }  
+
+  #lang {
+
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    padding-left: 15px;
+    padding-top: 5px;
+  }
+
+  #nav-bar {
+    position: absolute;
+    bottom:0px;
+    width: 100%;
+    height: 33px;
+    /* border: solid;  */
+    margin-right: 143px;;   
+  }
+
+
+  /* nav bar------------------------------------ */
 
   ul {
     text-decoration: none;
   }
 
+  #nav-bar li {
+    display: inline-block;
+    font-size: 15px;
+
+  }
+  
+ 
+  /* set image size */
   nav > ul li > img {
     width: 4px;
     height: 21px;
@@ -54,13 +208,41 @@
     margin-right: 16px;
     margin-bottom: 0;
   }
+
+  /* nav ul {
+    
+    margin-block-start: 1em;
+    margin-inline-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 40px ;
+  } */
+
+ 
+
+ /* nav {
+    position: relative;
+    width: 100%;
+    border: solid red;
+    
+  }
+  
+
+  #main-nav {
+    position: absolute;
+    width: 100%;
+    margin-right: 143px;
+    /* border: solid; */
+    padding-right: 0;
+  } */
+
+
   
   .dropdown {
-    /* display: none; */
+   
     position: relative;
     list-style: none;
     padding-left: 0;
-    /* justify-content: space-between; */
   }
 
   .dropdown-content {
@@ -75,9 +257,70 @@
     display: block;
   }
 
-  #header nav {
+  
+
+  /* #header nav ul {
     position: relative;
     top:72px;
     height: 33px;
     margin: 0 143px 0 0;
+  } */
+
+
+ 
+/* main page ---------------------------------- */
+ 
+  #main {
+    padding-top: 30px;
   }
+
+
+  /* end---------------------------------------- */
+
+
+  /* footer--------------------------------------- */
+  
+
+  footer {
+
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  
+  .manu  li {
+    display: inline;
+    
+  }
+
+  .manu li a, .manu li  {
+    
+    color: #fff;
+  }
+
+  .manu li a img {
+    padding-bottom: -15px;
+  }
+
+  
+
+.manu li span a {
+  color:red;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+li:hover {
+  
+  text-decoration: underline;  
+  
+}
+
+.manu li a:hover {
+  color: blue;
+}
+  
