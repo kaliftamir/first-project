@@ -395,8 +395,16 @@ img.mid-pic {
 
 .image-map {
   position: absolute;
-  top:45px;
+  height: auto;
+  top:55px;
   left:24px; 
+}
+
+/* resize pictue */
+#map-img {
+  width: 90%;
+  height: auto;
+
 }
 
 .details {
@@ -405,13 +413,13 @@ img.mid-pic {
   left:24px;
 }
 
-.details a {
+.details a, .list a {
   color: black;
 }
 
 .list {
   position: absolute;
-  top:54px;
+  top:65px;
   right:24px;
 }
  
