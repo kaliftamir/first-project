@@ -43,7 +43,6 @@
     flex-wrap: wrap;
     height: 216px;
     /* border: solid tomato; */
-    width: 100%;
     margin-top: 380px;
   
   }
@@ -401,6 +400,9 @@ img.mid-pic {
   left:24px;
 }
 
+.details a {
+  color: black;
+}
 
  
 
