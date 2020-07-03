@@ -32,8 +32,7 @@
   .row-2 {
     display: flex;
     flex-wrap: wrap;
-    border: solid crimson;
-    
+    /* border: solid crimson; */    
     height: 355px;
     margin-top: 18px;
     
@@ -43,8 +42,9 @@
     display: flex;
     flex-wrap: wrap;
     height: 216px;
-    height: 216px;  
-    border: solid tomato;
+    /* border: solid tomato; */
+    width: 100%;
+    margin-top: 380px;
   
   }
 
@@ -69,7 +69,7 @@
     position: absolute;
     width: 293px;    
     display: block;    
-    border: solid;
+    /* border: solid; */
     
   }
 
@@ -79,7 +79,7 @@
     width: 293px;
     margin-right: 300px;
     display: block;    
-    border: solid;
+    /* border: solid; */
     
   }
 
@@ -89,7 +89,7 @@
     width: 293px;
     margin-right: 600px;;
     display: block;    
-    border: solid;
+    /* border: solid; */
     
   }
 
@@ -111,7 +111,7 @@
 
   }
 
-  .container {
+  .content {
 
     position: relative;
     width: 900px;
@@ -166,7 +166,7 @@
     float:left;
     width: 132px;
     height: 19px;
-    border-top-right-radius: 8px;
+    border-top-right-radius: 15px;
     border: none;
     
   }  
@@ -226,6 +226,7 @@
     margin-left: 16px;
     margin-right: 16px;
     margin-bottom: 0;
+    
   }
 
   
@@ -242,7 +243,7 @@
 /* fixing the dropdown position */
   .container {
     position: relative;
-    
+     
   }
 
   .top {
@@ -293,7 +294,7 @@
 
 
  
-/* main section ---------------------------------- */
+/* main row-2 section ---------------------------------- */
  
   #main {
     padding-top: 90px;
@@ -325,9 +326,10 @@ img.mid-pic {
 
 .frame {
   
-  width: 100%
+  
   position: relative;
-  margin: auto;
+  /* margin: auto; */
+  /* border: solid blue; */
 }
 
 .frame > div {
@@ -361,9 +363,43 @@ img.mid-pic {
   color:white;
 }
 
-/* last section--------------------------------- */
+/* row-3 section--------------------------------- */
+
+.cube {
+
+  position: relative;
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 216px;
+  width: 292px;
+  border-top-right-radius: 15px;
+  border: solid blue;
+}
 
 
+.text-header {
+  
+  position: absolute;
+  top:5px;
+  right: 5px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.image {
+  position: absolute;
+  top:54px;
+  left:24px; 
+}
+
+.details {
+  position: absolute;
+  top:184px;
+  left:24px;
+}
 
 
  
