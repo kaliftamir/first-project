@@ -242,14 +242,15 @@
 /* fixing the dropdown position */
   .container {
     position: relative;
-    /* border: solid crimson */
+    
   }
 
   .top {
-    top: -5px;
-    
+    top: -5px;   
     
   }
+/* -------------------------------- */
+
 
   .dropdown-content {
     display: none;
