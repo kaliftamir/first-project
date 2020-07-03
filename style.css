@@ -367,12 +367,9 @@ img.mid-pic {
 .cube {
 
   position: relative;
-  padding-left: 24px;
-  padding-right: 24px;
   height: 216px;
   width: 292px;
-  border-top-right-radius: 15px;
-  border: solid blue;
+  
 }
 
 
@@ -386,11 +383,19 @@ img.mid-pic {
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 15px;
+  padding-right: 5px;;
 }
 
 .image {
   position: absolute;
-  top:54px;
+  top:65px;
+  left:24px; 
+}
+
+
+.image-map {
+  position: absolute;
+  top:45px;
   left:24px; 
 }
 
@@ -404,6 +409,11 @@ img.mid-pic {
   color: black;
 }
 
+.list {
+  position: absolute;
+  top:54px;
+  right:24px;
+}
  
 
 
