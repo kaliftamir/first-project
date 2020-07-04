@@ -542,7 +542,7 @@ li a:hover, div a:hover {
 
   /*contact----------------------------------------  */
 
-  .contact-main {
+  .contact-container {
 
     position: relative;
     display: inline;
@@ -565,15 +565,56 @@ li a:hover, div a:hover {
     margin-bottom: 4px;
     color:#5c5c5c;
     line-height: 32px;
-    /* background:  */
-    border-top: 1px solid black;
-    background-color: darkcyan;
+    padding-right: 12px;
+   
+    background-image: url("menu_dropdown_sep.png");
 
+  }
+
+  ul {
+  list-style: none;
+
+  }
+
+  
+
+  .contact-main {
+    position: absolute;
+    display: block;
+    right:132px;
+
+    border: solid;
   }
 
   .selected {
-
-    position: absolute;
-    display: block;
     
+
   }
+
+ .left-cube-1 {
+   position: absolute;
+   display: block;
+   width: 100%;
+   left:0;
+   border: solid;
+ } 
+
+ .left-cube-2 {
+  position: absolute;
+  display:block;
+  left:0;
+  bottom: 150px;
+  border: solid;
+} 
+
+.left-cube-3 {
+  position: absolute;
+  display: block;
+  left:0;
+  bottom: 0;
+  border: solid;
+} 
+
+.contact-main img, .left-cube-2 img, .left-cube-3 img {
+  width: 100%;
+}
