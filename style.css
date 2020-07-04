@@ -551,7 +551,7 @@ li a:hover, div a:hover {
     padding-top: 32px;
     margin: auto;
 
-    border: 5px solid crimson;
+    /* border: 5px solid crimson; */
 
   }
 
@@ -678,7 +678,7 @@ li a:hover, div a:hover {
   position: absolute;
   display:block;
   left:0;
-  bottom: 185px;
+  bottom: 260px;
   width: 292px;
   height: 175px;
   /* padding-right: 22px;
@@ -692,6 +692,7 @@ li a:hover, div a:hover {
   position: absolute; 
   display: block;
   top:12px;
+  
   right:25px;
   font-size: 15px;
   font-weight: bold;
@@ -713,6 +714,7 @@ li a:hover, div a:hover {
   display: block;
   left:0;
   bottom: 0;
+  bottom: 30px;
   width: 292px;
   height: 175px;
   /* padding-right: 22px;
