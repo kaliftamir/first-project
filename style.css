@@ -218,8 +218,6 @@
     text-decoration: none;
   }
 
- 
-
   #nav-bar li {
     display: inline-block;
     font-size: 15px;
@@ -267,7 +265,7 @@
     position: absolute;
     width: auto;
     margin-top: 0;
-    margin-right: -12px;
+    margin-right: -12px;;
     padding-top: 20px;
     /* background-color: grey;  */
     padding-left:5px;
@@ -314,7 +312,8 @@ nav ul li img {
     padding-top: 90px;
   }
 
-  .frame {  
+  .frame {
+  
   
     position: relative;
     width: 293px;
@@ -322,15 +321,16 @@ nav ul li img {
     /* border: solid blue; */
   }
 
-  #home{
-    margin:0;
-  }
-
  .mid-pic {
 
   width: 100%;  
   display: block;
   border-bottom-right-radius: 15px;
+ }
+
+  #home-img {
+    margin:0;
+  }
 
   }
 
@@ -347,6 +347,12 @@ img.mid-pic {
   display: block;
 }
 
+
+
+.frame > div {
+  position: absolute;
+ 
+}
 
 .text-frame {
   top:250px;
