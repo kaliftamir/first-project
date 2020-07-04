@@ -459,10 +459,13 @@ img.mid-pic {
 }
 
 #fb {
-  /* position: absolute; */
-  top:3px;
+  top:3px;  
   
-  
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
 }
 
 
