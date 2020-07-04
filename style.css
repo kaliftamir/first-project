@@ -20,6 +20,8 @@
    /* layout -----------------------------------*/
 
    .row-1 {
+
+    position: absolute;
     display: flex;
     flex-wrap: wrap;
     /* border: solid crimson; */
@@ -30,6 +32,8 @@
   
   
   .row-2 {
+
+    position: absolute;
     display: flex;
     flex-wrap: wrap;
     /* border: solid crimson; */    
@@ -39,6 +43,7 @@
   }
 
   .row-3 {
+    
     display: flex;
     flex-wrap: wrap;
     height: 216px;
@@ -97,6 +102,7 @@
   form {
     display: block;
     margin-top: -20px;
+    height: 754px;
     /* border: solid red; */
   }
 
@@ -317,6 +323,7 @@ nav ul li img {
   
     position: relative;
     width: 293px;
+    height: 355px;
     /* margin: auto; */
     /* border: solid blue; */
   }
