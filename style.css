@@ -100,8 +100,18 @@
     /* border: solid red; */
   }
 
+  
+  img#banner-line {
+    
+    /* filter: opacity(10%);
+    filter:blur(5px); */
+    transform: rotate(90deg);
+    
+  
+  }
+
   #banner {
-    min-height: 82px;
+    min-height: 65px;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -109,6 +119,7 @@
     background-color: #909090; #969696
 
   }
+
 
   .content {
 
@@ -230,16 +241,7 @@
         
   }
 
- /* img#d {
-
-    filter: opacity(10%);
-    filter:blur(5px);
-    transform: rotate(270deg);
-    
   
-  } */
-
- 
 /* fixing the dropdown position */
   .container {
     position: relative;
@@ -272,7 +274,7 @@
    color: white;
    border-bottom: 0.02px solid white ;
    font-weight: bold;
-   background-color: grey;
+   background-color: #909090;
    display: block;
    width: 120px;
    padding: 5px;
