@@ -592,7 +592,7 @@ li a:hover, div a:hover {
 
   .selected {
     display: block;
-    font-size: 12px;
+    font-size: 15px;
     color: #5c5c5c;
     height: 37px;
 
@@ -611,11 +611,15 @@ li a:hover, div a:hover {
     display: block;
     width: 440px;
     height:32px;
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size: 12px;
     font-weight: bold;
-    border: 1px solid#cbcbcb;
+    border-bottom: 1px solid black;
+    
+    /* border-bottom: 1px solid #cbcbcb; */
     margin-bottom: 12px;
-    padding-bottom: 4px;    
+    padding-bottom: 4px;  
+    
 
   }
   
@@ -627,7 +631,7 @@ li a:hover, div a:hover {
 
     position: absolute;
     display: block;
-    bottom: 0;
+    top:50px;
     width: 385px;
     height: 358px;
  
@@ -644,6 +648,8 @@ li a:hover, div a:hover {
   .ctext {
     position: absolute;
     display: block;
+    font-size: 12px;
+    padding-top: 12px;
     top:0;
     right: 18px;
   }
