@@ -230,6 +230,15 @@
         
   }
 
+ /* img#d {
+
+    filter: opacity(10%);
+    filter:blur(5px);
+    transform: rotate(270deg);
+    
+  
+  } */
+
  
 /* fixing the dropdown position */
   .container {
