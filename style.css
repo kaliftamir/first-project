@@ -50,12 +50,11 @@
   .row-4 {
 
     display: flex;
-    position: fixed;
-    right: 0;
+    position: fixed;  
     width: 100%;
     /* border: solid crimson; */
+    right: 0;
     bottom: 0;
-    padding-bottom: 8px;
     height: 38px;
     background-color: grey;
     z-index: 9999;
@@ -425,15 +424,26 @@ img.mid-pic {
 
   footer {
 
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */    
+    /* align-items: center; */ 
+   
+    padding-top: 10px;
     
+  }
+
+  .manu {
+
+    position: absolute;
+    
+    /* position: fixed;   */
+    right: 130.5px;
+                    
   }
 
   
   .manu  li {
     display: inline;
-    
+        
   }
 
   .manu li a, .manu li  {
@@ -453,21 +463,15 @@ img.mid-pic {
 
 
 /* fixing the facebook position */
-.container {
-  position: relative;
-   
-}
-
 #fb {
-  top:3px;  
-  
+  top:3px;   
 }
 
 footer a {
   text-decoration: none;
-  color: white;
+  color: #fff;
+  font-size: 14px;
 }
-
 
 
 /* general--------------------------- */
