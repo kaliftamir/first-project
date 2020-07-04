@@ -105,8 +105,7 @@
     
     /* filter: opacity(10%);
     filter:blur(5px); */
-    /* transform: rotate(90deg); */
-    
+    /* transform: rotate(90deg); */   
   
   }
 
@@ -173,6 +172,7 @@
     float:left;
     width: 19px;
     height: 19px;
+    margin-left: 10px;
     
   }
  
@@ -290,7 +290,9 @@
 
   .dropdown-content a:hover {
     color: blue;
-    background-color: lightslategrey;
+    background-color: #bcbcbc;
+    /* background-image: url("menu_dropdown_bg,png"); */
+
   }
 
   .dropdown:hover .dropdown-content {
