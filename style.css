@@ -56,7 +56,7 @@
     right: 0;
     bottom: 0;
     height: 38px;
-    background-color: grey;
+    background-color:#919191;
     z-index: 9999;
         
   }
@@ -106,7 +106,7 @@
     padding: 0;
     margin: 0;
     border: none;
-    background-color: grey;
+    background-color: #909090
 
   }
 
