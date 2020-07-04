@@ -51,6 +51,7 @@
 
     display: flex;
     position: fixed;
+    right: 0;
     width: 100%;
     /* border: solid crimson; */
     bottom: 0;
@@ -183,18 +184,10 @@
   #nav-bar {
     position: absolute;
     bottom:0px;
-    /* width: 100%; */
-    /* height: 33px; */
     height: 53px;
     /* border: solid;  */
     margin-right: 143px;;   
   }
-
-  /* .row-1::after {
-    content: "";
-    clear: both;
-    display: table;
-  } */
 
   
   #lang::after {
@@ -215,7 +208,7 @@
     font-size: 15px;
 
   }
-  
+
  
   /* set image size */
   nav > ul li > img {
@@ -246,7 +239,7 @@
   }
 
   .top {
-    top: -5px;   
+    top: -7px;   
     
   }
 /* -------------------------------- */
@@ -327,6 +320,7 @@ img.mid-pic {
   
   
   position: relative;
+  height: 293px;
   /* margin: auto; */
   /* border: solid blue; */
 }
@@ -348,6 +342,7 @@ img.mid-pic {
   font-size: 13px;
   margin-top: 4px;
   margin-left:40px;
+  padding-left: 10px;
 }
 
 .read-more {
@@ -454,6 +449,20 @@ img.mid-pic {
 
 .manu li span a {
   color:red;
+}
+
+
+/* fixing the facebook position */
+.container {
+  position: relative;
+   
+}
+
+#fb {
+  /* position: absolute; */
+  top:3px;
+  
+  
 }
 
 
