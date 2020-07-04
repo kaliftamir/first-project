@@ -582,8 +582,12 @@ li a:hover, div a:hover {
     position: absolute;
     display: block;
     right:132px;
+    width: 464px;
+    height: 426px;
+    border:solid;
 
-    border: solid;
+    
+   
   }
 
   .selected {
@@ -591,30 +595,64 @@ li a:hover, div a:hover {
 
   }
 
+  .main-cube {
+
+    position: absolute;
+    display: block;
+    width: 385px;
+    height: 358px;
+    border: 1px solid #CCCCCC;
+    /* padding: 18px 12px; */
+    border: 1px;
+    border-top-right-radius: 15px;
+    
+  }
+
+  
  .left-cube-1 {
    position: absolute;
    display: block;
-   width: 100%;
    left:0;
+
+   width: 292px;
+   height: 20px;
+  
    border: solid;
  } 
+
+ .left-cube-1 > img {
+   width: 100%;
+ }
+
 
  .left-cube-2 {
   position: absolute;
   display:block;
   left:0;
-  bottom: 150px;
-  border: solid;
-} 
+  bottom: 185px;
+  width: 292px;
+  height: 175px;
+  /* padding-right: 22px;
+  padding-left: 22px;;
+  padding-top: 18px;
+  padding-bottom: 15px; */
+  
+ } 
 
 .left-cube-3 {
   position: absolute;
   display: block;
   left:0;
   bottom: 0;
+  width: 292px;
+  height: 175px;
+  /* padding-right: 22px;
+  padding-left: 22px;;
+  padding-top: 18px;
+  padding-bottom: 15px; */
   border: solid;
 } 
 
-.contact-main img, .left-cube-2 img, .left-cube-3 img {
+.main-cube img, .left-cube-2 img, .left-cube-3 img {
   width: 100%;
 }
