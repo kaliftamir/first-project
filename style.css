@@ -584,7 +584,7 @@ li a:hover, div a:hover {
     right:132px;
     width: 464px;
     height: 426px;
-    border:solid;
+    /* border:solid; */
 
     
    
@@ -618,10 +618,8 @@ li a:hover, div a:hover {
     padding-bottom: 4px;    
 
   }
-  .cform > div > label {
-    right: 10px;
-  }
-
+  
+  
 
 
 
@@ -658,6 +656,8 @@ li a:hover, div a:hover {
   }
 
   
+
+  
  .left-cube-1 {
    position: absolute;
    display: block;
@@ -673,7 +673,7 @@ li a:hover, div a:hover {
    width: 100%;
  }
 
-
+ 
  .left-cube-2 {
   position: absolute;
   display:block;
@@ -687,6 +687,26 @@ li a:hover, div a:hover {
   padding-bottom: 15px; */
   
  } 
+
+ .left-cube-title {
+  position: absolute; 
+  display: block;
+  top:12px;
+  right:25px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #005ca0;
+  margin-bottom: 10px;
+ }
+
+ .left-cube-text {
+  position: absolute; 
+  display: block;
+  font-size: 13px;
+  top:42px;
+  right:25px;
+  
+ }
 
 .left-cube-3 {
   position: absolute;
