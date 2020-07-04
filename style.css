@@ -201,7 +201,7 @@
     bottom:0px;
     height: 53px;
     /* border: solid;  */
-    margin-right: 115px;;   
+    margin-right: 140px;;   
   }
 
   
@@ -314,14 +314,23 @@ nav ul li img {
     padding-top: 90px;
   }
 
+  .frame {  
   
+    position: relative;
+    width: 293px;
+    /* margin: auto; */
+    /* border: solid blue; */
+  }
+
+  #home{
+    margin:0;
+  }
 
  .mid-pic {
 
   width: 100%;  
   display: block;
   border-bottom-right-radius: 15px;
-
 
   }
 
@@ -338,19 +347,6 @@ img.mid-pic {
   display: block;
 }
 
-.frame {
-  
-  
-  position: relative;
-  height: 293px;
-  /* margin: auto; */
-  /* border: solid blue; */
-}
-
-.frame > div {
-  position: absolute;
- 
-}
 
 .text-frame {
   top:250px;
