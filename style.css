@@ -36,9 +36,11 @@
     position: absolute;
     display: flex;
     flex-wrap: wrap;
-    /* border: solid crimson; */    
+    border: solid crimson;    
     height: 355px;
     margin-top: 18px;
+
+    width: 100%;
     
   }
 
@@ -538,4 +540,16 @@ li a:hover, div a:hover {
 }
 
 
-  
+  /*contact----------------------------------------  */
+
+  .contact-main {
+
+    position: relative;
+    width: 900px;
+    height: 426px;
+    padding-top: 32px;
+    margin: auto;
+
+    border: 5px solid crimson;
+
+  }
