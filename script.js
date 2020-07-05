@@ -32,8 +32,7 @@ function validation () {
         
         } else {
           mail.setCustomValidity("");
-          mail.style.color="green";
-         
+                
         }         
     
     };

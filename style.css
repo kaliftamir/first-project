@@ -740,13 +740,14 @@ li a:hover, div a:hover,li span a:hover {
   }
 
   input:invalid {
-    border-color: crimson;
-    border-width: 3px;
+   color: crimson;
+   
+    
   }
 
-  input:valid {
-    border-color: green;
-    border-width: 3px;
+  input:valid  {
+    border: 3px solid green;
+ 
   }
   
 
