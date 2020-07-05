@@ -170,22 +170,22 @@
                         <div class="cform rel">
                             <div>
                                 <label class="column1" for="fname">* שם פרטי</label>
-                                <input type="text" id="fname">
+                                <input type="text" id="fname" required>
                             </div>
 
                             <div>
                                 <label for="lname">* שם משפחה</label>
-                                <input type="text" id="lname">
+                                <input type="text" id="lname" required>
                             </div>
 
                             <div>
                                 <label for="name">* טלפון</label>
-                                <input type="text" id="name">
+                                <input type="text" id="name" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
                             </div>
 
                             <div>
                                 <label for="name">* E-mail</label>
-                                <input type="email" id="name">
+                                <input type="email" id="name" required>
                             </div>
                             <div><textarea name="" id="" cols="30" rows="10">תוכן הפנייה</textarea></div>
                             <div><button type="button">שלח</button></div>
