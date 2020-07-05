@@ -555,6 +555,9 @@ img.mid-pic {
   color:red;
 }
 
+.manu li span #arrang {
+  color:white;
+}
 
 /* fixing the facebook position */
 #fb {
@@ -586,6 +589,8 @@ li a:hover, div a:hover,li span a:hover {
   color: blue;
   
 }
+
+
 
 
   /*contact----------------------------------------  */
