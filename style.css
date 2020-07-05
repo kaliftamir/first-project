@@ -726,6 +726,12 @@ li a:hover, div a:hover {
     padding: 0 4px
   }
 
+  input:invalid {
+    border-color: crimson;
+    border-width: 3px;
+  }
+  
+
   .cform .fcol-1, #textarea {
    padding-right: 55px;
        

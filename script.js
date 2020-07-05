@@ -14,9 +14,6 @@ var renew = setInterval(function(){
 },500); 
 
 
-    // else {    
-    // document.getElementById("diff-image").src = images[i]; 
-    // i++;
-    // }
+  
 
 
