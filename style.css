@@ -612,7 +612,7 @@ li a:hover, div a:hover {
     width: 440px;
     height:32px;
     /* font-size: 15px; */
-    font-size: 12px;
+    font-size: 10px;
     font-weight: bold;
     border-bottom: 1px solid black;
     
@@ -652,6 +652,19 @@ li a:hover, div a:hover {
     padding-top: 12px;
     top:0;
     right: 18px;
+  }
+
+  
+  .ctext .bfont {
+   
+    font-size: 13px;
+    
+  }
+
+  .ctext .sfont {
+   
+    font-size: 12px;
+    
   }
 
   .cform {
