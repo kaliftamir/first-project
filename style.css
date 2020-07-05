@@ -465,7 +465,28 @@ img.mid-pic {
   top:65px;
   right:24px;
 }
+.list ul div a {
+  font-size: 14px;
+  padding: 0 0 0 6px;;
+}
+
+.north a {
+  margin-left: 5px;
+  
+}
+
+.north:hover > #arrow, .north:hover + a
+.center:hover > #arrow, .center:hover + a
+.south:hover > #arrow, .south:hover + a  {
+  content:  url("read_more_blue.png");
+  color:blue;
+  
+}
  
+
+/* #my-err:after {
+ content: url("blue_err.png");
+} */
 
 
   /* footer--------------------------------------- */
@@ -572,7 +593,7 @@ li a:hover, div a:hover {
     line-height: 32px;
     padding-right: 0px;
     border-top: 1px solid;
-    background-image: url("errow.png");
+    background-image: url("arrow.png");
 
   }
 
