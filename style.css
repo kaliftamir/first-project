@@ -467,7 +467,8 @@ img.mid-pic {
 }
 .list ul div a {
   font-size: 14px;
-  padding: 0 0 0 6px;;
+  padding: 0 0 0 6px;
+  
 }
 
 .north a {
@@ -475,18 +476,31 @@ img.mid-pic {
   
 }
 
-.north:hover > #arrow, .north:hover + a
-.center:hover > #arrow, .center:hover + a
-.south:hover > #arrow, .south:hover + a  {
-  content:  url("read_more_blue.png");
-  color:blue;
-  
-}
- 
 
-/* #my-err:after {
- content: url("blue_err.png");
-} */
+/* changing arrow and link colors to blue */
+.north:hover > #arr1  {
+  content:  url("read_more_blue.png");
+
+}
+.north:hover > a {
+  color:blue;
+}
+
+.center:hover > #arr2 {
+  content:  url("read_more_blue.png");
+
+}
+.center:hover > a {
+  color:blue;
+}
+
+.south:hover > #arr3  {
+  content:  url("read_more_blue.png");
+
+}
+.south:hover > a {
+  color:blue;
+}
 
 
   /* footer--------------------------------------- */
