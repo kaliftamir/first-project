@@ -704,15 +704,21 @@ li a:hover, div a:hover {
   position: absolute;
   display:block;
   left:0;
-  bottom: 260px;
+  bottom: 220px;
   width: 292px;
-  height: 175px;
+  height: 100px;
   /* padding-right: 22px;
   padding-left: 22px;;
   padding-top: 18px;
   padding-bottom: 15px; */
+  /* border: solid; */
   
  } 
+
+ .left-cube-2  > div > img {
+  width: 292px;
+  height: 175px;
+}
 
  .left-cube-title {
   position: absolute; 
@@ -740,7 +746,7 @@ li a:hover, div a:hover {
   display: block;
   left:0;
   bottom: 0;
-  bottom: 30px;
+  bottom: -48px;
   width: 292px;
   height: 175px;
   /* padding-right: 22px;
@@ -749,6 +755,11 @@ li a:hover, div a:hover {
   padding-bottom: 15px; */
   /* border: solid; */
 } 
+
+.left-cube-3 div > img {
+  width: 292px;
+  height: 175px;
+}
 
 .main-cube img, .left-cube-2 img, .left-cube-3 img {
   width: 100%;
