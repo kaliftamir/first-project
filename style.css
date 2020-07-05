@@ -502,6 +502,14 @@ img.mid-pic {
   color:blue;
 }
 
+.details:hover > .arr {
+  content:  url("read_more_blue.png");
+
+}
+.details:hover > a {
+  color:blue;
+}
+
 
   /* footer--------------------------------------- */
   
