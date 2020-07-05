@@ -633,8 +633,7 @@ li a:hover, div a:hover {
     display: block;
     top:50px;
     width: 385px;
-    height: 358px;
- 
+    height: 358px; 
     /* padding: 18px 12px; */
     border: 1px;
     border-top-right-radius: 15px;
