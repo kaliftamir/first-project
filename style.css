@@ -730,6 +730,11 @@ li a:hover, div a:hover {
     border-color: crimson;
     border-width: 3px;
   }
+
+  input:valid {
+    border-color: green;
+    border-width: 3px;
+  }
   
 
   .cform .fcol-1, #textarea {

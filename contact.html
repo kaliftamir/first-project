@@ -185,16 +185,16 @@
                                 </div>
     
                                 <div>
-                                    <label class="fcol-1" for="name">* טלפון</label>
-                                    <input class="fcol-2" type="text" id="name" required  size="15" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                                    <label class="fcol-1" for="phone">* טלפון</label>
+                                    <input class="fcol-2" type="text" id="phone" required  size="15" pattern="^[0-9]{10}$" placeholder="מספר סלולרי" maxlength="10">
                                 </div>
     
                                 <div>
-                                    <label class="fcol-1" for="name">* E-mail</label>
-                                    <input class="fcol-2" type="email" id="name" required size="15">
+                                    <label class="fcol-1" for="email">* E-mail</label>
+                                    <input class="fcol-2" type="email" id="email" required size="15">
                                 </div>
                                 <div id="textarea"><textarea style="overflow:auto"  cols="35" rows="8">תוכן הפנייה</textarea></div>
-                                <div class="fcol-2"><button type="submit">שלח</button></div>
+                                <div class="fcol-2"><button type="submit" onclick="validation()">שלח</button></div>
                             </div>
                               
                           
