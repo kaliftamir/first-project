@@ -160,6 +160,11 @@
      
   }
 
+  #header > input {
+    
+font-weight: bold;     
+  }
+
 
 
 
@@ -671,14 +676,37 @@ li a:hover, div a:hover {
   .cform {
     position: absolute;
     display: block;
-    bottom: 0; 
+    top: 100px; 
     
   }
 
   .cform button {
     font-size: 14px;
-    background-color: blue;
-    color:#fff;
+    background-color: #0289c9;
+    color: #fff;
+    padding: 0 4px;
+    padding: 0 4px
+  }
+
+  .cform .fcol-1, #textarea {
+   padding-right: 55px;
+       
+  }
+
+  .cform .fcol-2 {  
+    position: absolute; 
+    /* right:180px;      */
+
+    left:0px;
+
+  }
+
+  input {
+    
+  }
+
+  .cform div {
+    margin-bottom: 5px;
   }
 
   
